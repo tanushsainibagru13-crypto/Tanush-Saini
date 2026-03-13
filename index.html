@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#0f172a;
+color:#e2e8f0;
+line-height:1.6;
+}
+
+.container{
+width:90%;
+max-width:1100px;
+margin:auto;
+}
+
+header{
+text-align:center;
+padding:60px 20px;
+background:#020617;
+}
+
+header img{
+width:150px;
+height:150px;
+border-radius:50%;
+object-fit:cover;
+margin-bottom:20px;
+border:3px solid #38bdf8;
+}
+
+header h1{
+font-size:36px;
+margin-bottom:10px;
+}
+
+header p{
+color:#94a3b8;
+}
+
+nav{
+display:flex;
+justify-content:center;
+gap:25px;
+margin-top:20px;
+flex-wrap:wrap;
+}
+
+nav a{
+color:#38bdf8;
+text-decoration:none;
+font-weight:bold;
+}
+
+section{
+padding:60px 0;
+border-bottom:1px solid #1e293b;
+}
+
+h2{
+font-size:28px;
+margin-bottom:20px;
+color:#38bdf8;
+}
+
+.skills{
+display:flex;
+flex-wrap:wrap;
+gap:10px;
+}
+
+.skill{
+background:#1e293b;
+padding:8px 15px;
+border-radius:20px;
+font-size:14px;
+}
+
+.card{
+background:#020617;
+padding:20px;
+border-radius:10px;
+margin-bottom:20px;
+}
+
+.projects{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.project{
+background:#020617;
+padding:20px;
+border-radius:10px;
+}
+
+.project a{
+display:inline-block;
+margin-top:10px;
+color:#38bdf8;
+text-decoration:none;
+}
+
+.contact{
+text-align:center;
+}
+
+.contact a{
+display:inline-block;
+margin:10px;
+color:#38bdf8;
+text-decoration:none;
+}
+
+footer{
+text-align:center;
+padding:20px;
+background:#020617;
+color:#64748b;
+}
+
+@media(max-width:600px){
+
+header h1{
+font-size:28px;
+}
+
+h2{
+font-size:22px;
+}
+
+}
+</style>
+</head>
+
+<body>
+
+<header>
+
+<img src="profile-placeholder.jpg" alt="Profile Photo">
+
+<h1>Your Name</h1>
+
+<p>Web Developer | Designer | Creator</p>
+
+<nav>
+<a href="#about">About</a>
+<a href="#skills">Skills</a>
+<a href="#experience">Experience</a>
+<a href="#projects">Projects</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<section id="about">
+<div class="container">
+
+<h2>About</h2>
+
+<p>
+Write a short introduction about yourself here. Talk about your background,
+your interests, and what you do professionally. This section should give a
+quick overview of who you are.
+</p>
+
+</div>
+</section>
+
+<section id="skills">
+<div class="container">
+
+<h2>Skills</h2>
+
+<div class="skills">
+
+<span class="skill">HTML</span>
+<span class="skill">CSS</span>
+<span class="skill">JavaScript</span>
+<span class="skill">React</span>
+<span class="skill">Node.js</span>
+<span class="skill">UI Design</span>
+
+</div>
+
+</div>
+</section>
+
+<section id="experience">
+<div class="container">
+
+<h2>Experience</h2>
+
+<div class="card">
+<h3>Job Title</h3>
+<p><strong>Company Name</strong> | 2023 - Present</p>
+<p>
+Describe your responsibilities and achievements in this role.
+</p>
+</div>
+
+<div class="card">
+<h3>Previous Job</h3>
+<p><strong>Company Name</strong> | 2021 - 2023</p>
+<p>
+Describe your responsibilities and achievements in this role.
+</p>
+</div>
+
+</div>
+</section>
+
+<section id="projects">
+<div class="container">
+
+<h2>Projects</h2>
+
+<div class="projects">
+
+<div class="project">
+<h3>Project One</h3>
+<p>Short description of your project.</p>
+<a href="#">View Project</a>
+</div>
+
+<div class="project">
+<h3>Project Two</h3>
+<p>Short description of your project.</p>
+<a href="#">View Project</a>
+</div>
+
+<div class="project">
+<h3>Project Three</h3>
+<p>Short description of your project.</p>
+<a href="#">View Project</a>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section id="contact">
+<div class="container contact">
+
+<h2>Contact</h2>
+
+<p>Email: your@email.com</p>
+
+<a href="#">LinkedIn</a>
+<a href="#">GitHub</a>
+<a href="#">Twitter</a>
+
+</div>
+</section>
+
+<footer>
+<p>© 2026 Your Name. All Rights Reserved.</p>
+</footer>
+
+</body>
+  </html>
